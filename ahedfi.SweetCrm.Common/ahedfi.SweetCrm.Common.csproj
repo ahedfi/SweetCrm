@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ahedfi.SweetCrm.Common.ApplicationService.Contracts\ahedfi.SweetCrm.Common.ApplicationService.Contracts.csproj" />
+    <ProjectReference Include="..\ahedfi.SweetCrm.Common.ApplicationService\ahedfi.SweetCrm.Common.ApplicationService.csproj" />
+    <ProjectReference Include="..\ahedfi.SweetCrm.Common.DomainModel\ahedfi.SweetCrm.Common.DomainModel.csproj" />
+    <ProjectReference Include="..\ahedfi.SweetCrm.Common.DomainService\ahedfi.SweetCrm.Common.DomainService.csproj" />
+    <ProjectReference Include="..\ahedfi.SweetCrm.Common.Job\ahedfi.SweetCrm.Common.Job.csproj" />
+    <ProjectReference Include="..\ahedfi.SweetCrm.Common.Persistance.Data\ahedfi.SweetCrm.Common.Persistance.Data.csproj" />
+    <ProjectReference Include="..\ahedfi.SweetCrm.Common.Persistance.Identity\ahedfi.SweetCrm.Common.Persistance.Identity.csproj" />
+    <ProjectReference Include="..\ahedfi.SweetCrm.Common.WebApi\ahedfi.SweetCrm.Common.WebApi.csproj" />
+  </ItemGroup>
+
+</Project>
